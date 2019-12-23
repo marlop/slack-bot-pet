@@ -1,0 +1,23 @@
+{
+  "name": "slack-bot-pet",
+  "version": "1.0.0",
+  "description": "Virtual Pet for Slack",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marlop/slack-bot-pet.git"
+  },
+  "author": "Mario Lopez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marlop/slack-bot-pet/issues"
+  },
+  "homepage": "https://github.com/marlop/slack-bot-pet#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "slackbots": "^1.2.0"
+  }
+}
